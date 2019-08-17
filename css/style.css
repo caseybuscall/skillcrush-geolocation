@@ -1,4 +1,27 @@
 body, html{
-	font-family: 'Montserrat', sans-serif;
-	color:#a3d3c6;
+	background: url(../img/bkgd.jpg) no-repeat;
+	background-size: cover;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 5em;
+	text-transform: uppercase;
+	padding-top: 100px;
+}
+
+#demo {
+	font-size: 2em;
+}
+
+button {
+	background: none;
+	border: 2px solid;
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	padding: 15px;
+	color: tomato;
 }
